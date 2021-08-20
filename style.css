@@ -86,7 +86,7 @@ nav ul {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
     url('/img/landing-page.jpg');
   min-height: 90vh;
   background-repeat: no-repeat;
@@ -103,6 +103,33 @@ nav ul {
 .hero h3 {
   padding: 5rem;
 }
+
+/* ---------- Locations Section ---------- */
+
+#locations {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(./img/city.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+
+.locations-head h2 {
+  padding: 1rem 0rem;
+}
+
+.locations-head h3 {
+  padding: 4rem 0rem;
+}
+
+/* ---------- Media Queries ---------- */
 
 @media screen and (max-width: 932px) {
   html {

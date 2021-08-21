@@ -64,6 +64,9 @@ button:hover {
 .main-head {
   background-color: #131c27;
   color: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
 
 nav {
@@ -170,13 +173,17 @@ nav ul {
 .benefits-head {
   background: #131c27;
   padding: 3rem;
-  min-height: 30vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
   text-align: center;
+}
+
+.benefits-head h2 {
+  margin-top: 4rem;
 }
 
 .benefits-head h3 {
@@ -187,7 +194,7 @@ nav ul {
   width: 90%;
   margin: auto;
   display: flex;
-  min-height: 70vh;
+  min-height: 60vh;
   align-items: center;
   flex-wrap: wrap;
 }
